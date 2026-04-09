@@ -1,0 +1,8 @@
+src/vendor/
+src/node_modules/
+src/resources/cache/*
+src/resources/compiled/*
+src/public/css/*.css
+src/public/css/*.css.map
+src/.env
+docker/mysql/data/

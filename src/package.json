@@ -1,0 +1,12 @@
+{
+    "name": "blog-php-scss",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "watch": "sass --watch resources/scss:public/css --style=compressed --source-map",
+        "build": "sass resources/scss:public/css --style=compressed --no-source-map"
+    },
+    "devDependencies": {
+        "sass": "^1.70.0"
+    }
+}
